@@ -9,7 +9,7 @@ import {
   Settings,
 } from "lucide-react";
 import { useContext, useState } from "react";
-import { DarkModeContext } from "../../hooks/DarkModeContext";
+import { DarkModeContext } from "../hooks/DarkModeContext";
 import { NavLink } from "react-router-dom";
 
 const menu = [

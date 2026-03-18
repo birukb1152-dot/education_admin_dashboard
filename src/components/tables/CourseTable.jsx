@@ -14,7 +14,7 @@ const CourseTable = ({ courses, amount }) => {
 
   return (
     <div
-      className={`mt-4 border rounded-xl overflow-hidden ${
+      className={`mt-4 border rounded-xl overflow-hidden overflow-x-auto ${
         dark
           ? "bg-gray-800 text-white border-gray-700"
           : "bg-white text-black border-gray-300"
